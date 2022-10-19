@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: blueviolet;
+    background-color: rgb(240, 247, 245);
+    /* height: 500px; */
+}
+.main-container{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10%;
+    /* padding: 20px; */
+    /* border: 2px solid black; */
+
+}
+.text{
+    padding-left: 30px;
+    background-color: rgb(240, 247, 245);
+    
+}
+.text h1{
+    color: rgb(90, 90, 194);
+    font-size: 55px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text p{
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(54, 49, 49);
+    word-spacing: 1px;
+}
+section{
+   /*border: 2px solid black;
+   */background-color: white;
+   border-radius: 10px;
+   box-shadow: 1px 2px rgba(107, 104, 104, 0.26);
+}
+form{
+    padding: 15px;
+    box-shadow: 1px 1px rgba(128, 128, 128, 0.308);
+    background-color: rgb(255, 255, 255);
+    /*border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    */
+    border-radius: 8px;
+}
+form input{
+    display: block;
+    width: 300px;
+    margin-bottom: 15px;
+    padding: 13px;
+    color: gray;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border: 1px solid grey;
+}
+form a{
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: none;
+    color: rgb(56, 56, 143);
+    font-size: 13px;
+   
+}
+.login-btn{
+    background-color: rgb(85, 85, 209);
+    border: none;
+    outline: none;
+    width: 300px;
+    padding: 8px 30px;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+.new-btn{
+    background-color: rgb(110, 167, 26);
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 28%;
+    border-radius: 5px;
+    color: whitesmoke;
+    font-size: 13px;
+    font-weight: 600;
+    border: none;
+}
+.last-text{
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    /* padding-right: 60px; */
+    font-size: 13px;
+    font-weight: 500;
+    /* background-color: white; */
+
+}
+.last-text a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
